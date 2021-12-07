@@ -44,8 +44,8 @@ stage ('Run Script') {
                   spec: '''{
                    "files": [
                       {
-                      "pattern": "path/*",
-                      "target": "sample-php"
+                      "pattern": "dist/*",
+                      "target": "php101-php"
                       }
                             ]
                            }''',
