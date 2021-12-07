@@ -21,7 +21,7 @@ stage ('Checkout') {
     
 stage ('Run Script') {
     steps { 
-        sh "sudo mv index.php /var/www/html/"
+        sh "sudo zip sample.zip index.php"
     } 
         }    
  }
